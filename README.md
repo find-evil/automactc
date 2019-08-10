@@ -101,9 +101,9 @@ To print DEBUG messages to the console along with INFO and ERROR messages, use t
 
 	automactc.py -m all -d
 
-Automactc runs with the lowest CPU priority (niceness) possible by default. It is possible to disable niceness and run at a normal priority with the -r flag.
+Automactc runs with the lowest CPU priority (niceness) possible by default. It is possible to disable niceness and run at a normal priority with the -np flag.
 
-	automactc.py -m all -r 
+	automactc.py -m all -np
 
 Automactc can also be run against a dead disk, if the disk is mounted as a volume on the analysis system. Once mounted, run automactc with the appropriate inputdir (pointing to the Volume mount point) and -f to toggle forensic mode ON.
 
